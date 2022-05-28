@@ -10,3 +10,9 @@ Na parte de estilos do CSS utilizei cores mais discretas para não tirar atenç�
 A responsividade foi feita através do uso de unidades de medidas flexíveis, como rem, vh e vw, assim não foi necessário utilizar breakpoints, permitindo assim o acesso para qualquer formato de tela.
 
 No HTML foram utilizadas tags semânticas.
+
+
+<h1 align="center">
+  <img alt="preview" title="versao desktop" src="https://raw.githubusercontent.com/AdrianoFront/caixa-de-musica/main/caixa-de-musica.png"/>
+</h1>
+
