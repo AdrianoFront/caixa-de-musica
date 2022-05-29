@@ -41,11 +41,11 @@ header h1 {
   bottom: 50%;
   height: 120px;
   width: 160px;
+  font-size: 1rem;
   background: rgba(195, 205, 219, 0.905);
 }
 
 .permanent {
-  /*display: inline-block;*/
   position: absolute;
   left: -300%;
   bottom: 150px;
@@ -66,6 +66,7 @@ header h1 {
   bottom: 50%;
   height: 120px;
   width: 160px;
+  font-size: 1rem;
   background: rgba(195, 205, 219, 0.905);
 }
 
