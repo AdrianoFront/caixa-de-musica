@@ -1,8 +1,8 @@
 let toast = document.querySelector(".toast");
-let botaoPlay = document.querySelector("#botaoPlay");
+let botao1 = document.querySelector("#botao1");
 console;
 
-botaoPlay.onclick = function () {
+botao1.onclick = function () {
   toast.classList.add("visible");
 
   setTimeout(function () {
@@ -11,10 +11,10 @@ botaoPlay.onclick = function () {
 };
 
 let permanent = document.querySelector(".permanent");
-let botaoPlay2 = document.querySelector("#botaoPlay2");
+let botao2 = document.querySelector("#botao2");
 console;
 
-botaoPlay2.onclick = function () {
+botao2.onclick = function () {
   permanent.classList.add("visible");
 
   setTimeout(function () {
