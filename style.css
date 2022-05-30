@@ -1,16 +1,98 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: rgb(255, 255, 255);
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(148, 187, 233, 0.9051995798319328) 100%
+  );
+}
+
+header h1 {
+  margin: 15px;
+  font-weight: bold;
+  font-size: 3rem;
+  text-align: center;
+  font-family: helvetica, sans-serif;
+  color: rgb(130, 126, 126);
+}
+
 .toast {
-  display: inline-block;
   position: absolute;
-  left: -100%;
-  bottom: 30px;
-  background: rgb(230, 255, 230);
-  border: 1px solid rgb(0, 163, 0);
+  left: -300%;
+  text-decoration: none;
+  background: rgb(242, 242, 243);
+  border: 1px solid rgb(35, 33, 134);
   border-radius: 6px;
-  padding: 15px;
-  color: green;
-  trasition: all 600ms ease;
+  padding: 5px;
+  color: rgb(35, 33, 134);
+  transition: all 600ms ease;
+  cursor: pointer;
 }
 
 .toast.visible {
-  left: 30px;
+  top: 50%;
+  left: 40%;
+  right: -60%;
+  bottom: 50%;
+  height: 120px;
+  width: 160px;
+  font-size: 1rem;
+  background: rgba(195, 205, 219, 0.905);
+}
+
+.permanent {
+  position: absolute;
+  left: -300%;
+  bottom: 150px;
+  text-decoration: none;
+  background: rgb(242, 242, 243);
+  border: 1px solid rgb(35, 33, 134);
+  border-radius: 6px;
+  padding: 5px;
+  color: rgb(35, 33, 134);
+  transition: all 600ms ease;
+  cursor: pointer;
+}
+
+.permanent.visible {
+  top: 50%;
+  left: 40%;
+  right: -60%;
+  bottom: 50%;
+  padding: 2px;
+  height: 120px;
+  width: 160px;
+  font-size: 1rem;
+  background: rgba(195, 205, 219, 0.905);
+}
+
+#botao1,
+#botao2 {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  color: rgb(130, 126, 126);
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border: 1px solid rgb(5, 81, 109);
+}
+
+#botao1 {
+  margin-top: 20vh;
+  margin-left: 30vw;
+}
+
+#botao2 {
+  margin-top: 35vh;
+  margin-left: 55vw;
 }
